@@ -49,7 +49,7 @@ function showWeatherInfo(e) {
           `<div class='card h-100'>
                     <p class='weather-data'>${date}</p>` +
           `<div class="weather-icon-div">
-                        <img class="weather-icon" src="images/${weather.weather}.png" alt="${weather.weather}" />
+                        <img class="weather-icon" src="./${weather.weather}.png" alt="${weather.weather}" />
                         <div>` +
           `<div class="card-body">
                                 <p class="weather-description">${formatWeatherName(
